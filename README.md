@@ -56,6 +56,10 @@ Publish the package assets file and seeders to your application. Run these comma
     php artisan vendor:publish --provider="Gustavo82mdq\Acl\AclServiceProvider" --tag=public
     php artisan vendor:publish --provider="Gustavo82mdq\Acl\AclServiceProvider" --tag=seeds
 
+And also run:
+
+    composer dump-autoload
+
 And also run seeders:
 
     php artisan db:seed
