@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-0": {
-      "Gustavo82mdq\Acl": "src/"
+      "Gustavo82mdq\\Acl": "src/"
     }
   }
 }

@@ -14,6 +14,7 @@ class AclServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([__DIR__.'/assets' => public_path('gustavo82mdq/acl')], 'public');
+        $this->publishes([__DIR__.'/../../seeds' => base_path('/database/seeds')], 'seeds');
 
         if (! $this->app->routesAreCached()) {
             require __DIR__.'/../../config/routes.php';
