@@ -1,0 +1,22 @@
+{
+  "name": "gustavo82mdq/acl",
+  "description": "Acl plugin for Laravel 5",
+  "keywords": ["roles", "permissions", "acl", "auth", "laravel", "illuminate"],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "5.2.*",
+    "bican/roles": "^2.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gustavo82mdq",
+      "email": "gustavo82mdq@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Gustavo82mdq\Acl": "src/"
+    }
+  }
+}
