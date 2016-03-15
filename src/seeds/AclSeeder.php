@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Bican\Roles\Models\Role;
 
 class AclSeeder extends Seeder
 {
