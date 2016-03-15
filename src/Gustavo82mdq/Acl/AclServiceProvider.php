@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Gustavo82mdq\Acl;
 
 use Illuminate\Support\ServiceProvider;
 

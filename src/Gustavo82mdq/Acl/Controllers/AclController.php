@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Gustavo82mdq\Acl\Controllers;
 
 use Bican\Roles\Models\Permission;
 use Bican\Roles\Models\Role;

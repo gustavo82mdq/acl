@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Gustavo82mdq\Acl\Middleware;
 
 use Bican\Roles\Exceptions\PermissionDeniedException;
 use Closure;
